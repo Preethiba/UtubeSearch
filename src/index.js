@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+const API_KEY = 'AIzaSyAFRoRZZYCT0cjDNru8fAuw-QTuSMGdUz0';
 
 //Create a new component. This component should produce some HTML
 const App = () => {
@@ -11,4 +12,4 @@ const App = () => {
 //<App /> - component instance
 //ReactDOM.render(componentInstance or JSX elements,DOM element where the JSX should be rendered)
 
-ReactDOM.render(<div>App</div>, document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('.container'));
